@@ -1,0 +1,82 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/data/
+**/target/
+.env
+.env.*
+*.log
+*.db
+*.db-*
+*.bak.*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Runtime data
+/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# Java and Python
+**/target/
+**/__pycache__/
+*.pyc
+
+# Backups
+*.bak
+*.bak.*
+core
+core.*
+
+# Historical source backups
+*.before_*
+*.before-*
+*.backup
+*.bak
+*.bak.*
+
+**/node_modules/
